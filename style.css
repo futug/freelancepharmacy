@@ -301,6 +301,7 @@ nav > ul {
   border-radius: 10px;
   padding: 10px 0;
   margin: 100px 0;
+  cursor: pointer;
   -webkit-box-shadow: 4px 4px 8px 0px rgba(204, 206, 208, 0.2);
   -moz-box-shadow: 4px 4px 8px 0px rgba(204, 206, 208, 0.2);
   box-shadow: 4px 4px 8px 0px rgba(204, 206, 208, 0.2);
@@ -468,7 +469,7 @@ nav > ul {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 80%;
-  max-width: 500px; /* Опционально: ограничение максимальной ширины */
+  max-width: 500px;
   background-color: #fff;
   padding: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -492,7 +493,6 @@ nav > ul {
 
 .popup__pic {
   width: 100%;
-  /* max-height: 200px; Опционально: ограничение максимальной высоты изображения */
   object-fit: cover;
   margin-bottom: 10px;
 }

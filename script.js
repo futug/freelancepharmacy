@@ -1,129 +1,186 @@
-const header = document.querySelector(".header__inner-bottom");
-const headerBottom = header.getBoundingClientRect().bottom + window.scrollY;
+(function () {
+  // Header-related variables
+  const header = document.querySelector(".header__inner-bottom");
+  const headerBottom = header.getBoundingClientRect().bottom + window.scrollY;
+  let isHeaderActive = false;
 
-function addActiveClasses() {
-  document.querySelector(".header__inner-top").classList.add("header__inner-top--active");
-  const navLinks = document.querySelectorAll(".header__nav-links");
-  navLinks.forEach(function (link) {
-    link.classList.add("header__nav-links--active");
-  });
-}
-
-function removeActiveClasses() {
-  document.querySelector(".header__inner-top").classList.remove("header__inner-top--active");
-  const navLinks = document.querySelectorAll(".header__nav-links");
-  navLinks.forEach(function (link) {
-    link.classList.remove("header__nav-links--active");
-  });
-}
-
-function handleScroll() {
-  if (window.innerWidth >= 1024) {
-    if (window.scrollY >= headerBottom) {
-      addActiveClasses();
-    } else {
-      removeActiveClasses();
-    }
-  } else {
-    removeActiveClasses();
-  }
-}
-
-window.addEventListener("scroll", handleScroll);
-window.addEventListener("resize", handleScroll);
-
-function typeWriterEffect(textElement, text, speed) {
-  let i = 0;
-  function typeWriter() {
-    if (i < text.length) {
-      textElement.innerHTML += text.charAt(i);
-      i++;
-      setTimeout(typeWriter, speed);
-    }
-  }
-  typeWriter();
-}
-
-window.addEventListener("load", () => {
+  // Title and subtitle animation
   const titleElement = document.querySelector(".header__title");
   const subtitleElement = document.querySelector(".header__subtitle");
 
-  typeWriterEffect(titleElement, "Weed Point", 100);
-  typeWriterEffect(subtitleElement, "The best pharmacy", 100);
-});
+  // Popup variables
+  const popup = document.getElementById("popup");
+  const popupClose = document.getElementById("popupClose");
+  const popupPic = document.getElementById("popupPic");
+  const popupTitle = document.getElementById("popupTitle");
+  const popupDescribe = document.getElementById("popupDescribe");
+  const popupPrice = document.getElementById("popupPrice");
 
-const slides = Array.from(document.querySelectorAll(".flowers__card"));
+  // Slide variables
+  const slides = Array.from(document.querySelectorAll(".flowers__card"));
 
-const popup = document.getElementById("popup");
-const popupClose = document.getElementById("popupClose");
-const popupPic = document.getElementById("popupPic");
-const popupTitle = document.getElementById("popupTitle");
-const popupDescribe = document.getElementById("popupDescribe");
-const popupPrice = document.getElementById("popupPrice");
+  // Burger menu variables
+  const burgerBtn = document.querySelector(".burger-menu");
 
-function openPopup(index) {
-  const slide = slides[index];
-  const picSrc = slide.querySelector(".flowers__card-pic").src;
-  const title = slide.querySelector(".flowers__card-title").textContent;
-  const describe = slide.querySelector(".flowers__card-describe").textContent;
-  const price = slide.querySelector(".flowers__card-price").textContent;
+  // Show more button variables
+  const showMoreButton = document.getElementById("showMoreButton");
+  const flowerDescriptions = document.querySelectorAll(".flowers__describe");
 
-  popupPic.src = picSrc;
-  popupTitle.textContent = title;
-  popupDescribe.textContent = describe;
-  popupPrice.textContent = price;
+  // Function to add active classes to header elements
+  function addActiveClasses() {
+    if (!isHeaderActive) {
+      document.querySelector(".header__inner-top").classList.add("header__inner-top--active");
+      const navLinks = document.querySelectorAll(".header__nav-links");
+      navLinks.forEach(function (link) {
+        link.classList.add("header__nav-links--active");
+      });
+      isHeaderActive = true;
+    }
+  }
 
-  popup.style.display = "block";
-}
+  // Function to remove active classes from header elements
+  function removeActiveClasses() {
+    if (isHeaderActive) {
+      document.querySelector(".header__inner-top").classList.remove("header__inner-top--active");
+      const navLinks = document.querySelectorAll(".header__nav-links");
+      navLinks.forEach(function (link) {
+        link.classList.remove("header__nav-links--active");
+      });
+      isHeaderActive = false;
+    }
+  }
 
-function closePopup() {
-  popup.style.display = "none";
-}
+  // Function to handle scroll events
+  function handleScroll() {
+    const windowWidth = window.innerWidth;
 
-slides.forEach((slide, index) => {
-  slide.addEventListener("click", () => openPopup(index));
-});
+    if (windowWidth >= 1024) {
+      if (window.scrollY >= headerBottom) {
+        addActiveClasses();
+      } else {
+        removeActiveClasses();
+      }
+    } else {
+      removeActiveClasses();
+    }
+  }
 
-popupClose.addEventListener("click", closePopup);
+  // Function to open the popup and populate it with data
+  function openPopup(index) {
+    const slide = slides[index];
+    const picSrc = slide.querySelector(".flowers__card-pic").src;
+    const title = slide.querySelector(".flowers__card-title").textContent;
+    const describe = slide.querySelector(".flowers__card-describe").textContent;
+    const price = slide.querySelector(".flowers__card-price").textContent;
 
-popup.addEventListener("click", (event) => {
-  event.stopPropagation();
-});
+    popupPic.src = picSrc;
+    popupTitle.textContent = title;
+    popupDescribe.textContent = describe;
+    popupPrice.textContent = price;
 
-document.addEventListener("click", (event) => {
-  const isClickOnSlide = event.target.closest(".flowers__card");
-  if (!isClickOnSlide && popup.style.display === "block") {
+    popup.style.display = "block";
+  }
+
+  // Function to close the popup
+  function closePopup() {
     popup.style.display = "none";
   }
-});
 
-const anchors = document.querySelectorAll('a[href*="#"]');
-for (let anchor of anchors) {
-  anchor.addEventListener("click", (e) => {
-    e.preventDefault();
-    const blockID = anchor.getAttribute("href");
-    document.querySelector("" + blockID).scrollIntoView({
-      behavior: "smooth",
-      block: "start",
-    });
-  });
-}
-
-const burgerBtn = document.querySelector(".burger-menu");
-burgerBtn.addEventListener("click", () => {
-  burgerBtn.classList.toggle("burger-menu--active");
-  document.querySelector(".burger-menu__list").classList.toggle("burger-menu__list--active");
-});
-
-const showMoreButton = document.getElementById("showMoreButton");
-const flowerDescriptions = document.querySelectorAll(".flowers__describe");
-
-showMoreButton.addEventListener("click", () => {
-  flowerDescriptions.forEach((description, index) => {
-    if (index !== 0) {
-      description.style.display = "block";
+  // Function to handle click events on slides
+  function handleSlideClick(event) {
+    const slide = event.target.closest(".flowers__card");
+    if (slide) {
+      const index = slides.indexOf(slide);
+      if (index !== -1) {
+        openPopup(index);
+      }
     }
-  });
+  }
 
-  showMoreButton.style.display = "none";
-});
+  // Function to handle click events inside the popup
+  function handlePopupClick(event) {
+    event.stopPropagation();
+  }
+
+  // Function to handle click events outside the popup
+  function handleDocumentClick(event) {
+    const isClickOnSlide = event.target.closest(".flowers__card");
+    if (!isClickOnSlide && popup.style.display === "block") {
+      popup.style.display = "none";
+    }
+  }
+
+  // Function to handle click events on anchor links
+  function handleAnchorClick(event) {
+    event.preventDefault();
+    const blockID = event.target.getAttribute("href");
+    const targetElement = document.querySelector(blockID);
+
+    if (targetElement) {
+      targetElement.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }
+  }
+
+  // Function to handle click events on the burger menu button
+  function handleBurgerClick() {
+    burgerBtn.classList.toggle("burger-menu--active");
+    document.querySelector(".burger-menu__list").classList.toggle("burger-menu__list--active");
+  }
+
+  // Function to handle click events on the "Show More" button
+  function handleShowMoreClick() {
+    flowerDescriptions.forEach((description, index) => {
+      if (index !== 0) {
+        description.style.display = "block";
+      }
+    });
+
+    showMoreButton.style.display = "none";
+  }
+
+  // Function to simulate typing effect
+  function typeWriterEffect(textElement, text, speed) {
+    let i = 0;
+    function typeWriter() {
+      if (i < text.length) {
+        textElement.innerHTML += text.charAt(i);
+        i++;
+        setTimeout(typeWriter, speed);
+      }
+    }
+    typeWriter();
+  }
+
+  // Initialize the functionality
+  function init() {
+    typeWriterEffect(titleElement, "Weed Point", 100);
+    typeWriterEffect(subtitleElement, "The best pharmacy", 100);
+
+    window.addEventListener("scroll", handleScroll);
+    window.addEventListener("resize", handleScroll);
+
+    slides.forEach((slide) => {
+      slide.addEventListener("click", handleSlideClick);
+    });
+
+    popupClose.addEventListener("click", closePopup);
+
+    popup.addEventListener("click", handlePopupClick);
+
+    document.addEventListener("click", handleDocumentClick);
+
+    const anchors = document.querySelectorAll('a[href*="#"]');
+    anchors.forEach((anchor) => {
+      anchor.addEventListener("click", handleAnchorClick);
+    });
+
+    burgerBtn.addEventListener("click", handleBurgerClick);
+
+    showMoreButton.addEventListener("click", handleShowMoreClick);
+  }
+
+  init();
+})();
