@@ -269,15 +269,31 @@ nav > ul {
     color: #000;
   }
 }
+
+@media (max-width: 660px) {
+  .header__title {
+    margin-top: 60%;
+  }
+}
+
+@media (max-width: 375px) {
+  .header__title {
+    margin-top: 90%;
+  }
+}
 /* section flowers */
 .flowers {
   position: relative;
   padding: 0 20px;
 }
+
+.flowers__slider-wrapper {
+  position: relative;
+}
 .flowers__card {
   display: flex;
   flex-direction: column;
-  max-width: 250px;
+  /* max-width: 250px; */
   align-items: center;
   justify-content: space-between;
   border: 1px solid transparent;
@@ -459,14 +475,18 @@ nav > ul {
 .popup__title {
   font-size: 24px;
   margin-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .popup__describe {
   margin-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .popup__price {
   font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
 }
 
 .hidden {
