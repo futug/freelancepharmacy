@@ -1,3 +1,4 @@
+window.initMap = initMap;
 let map;
 function initMap() {
   const centerPosition = { lat: 29.025885, lng: -13.602853 };
@@ -67,5 +68,3 @@ function initMap() {
     icon: svgMarker,
   });
 }
-
-window.initMap = initMap;
