@@ -116,7 +116,7 @@ button {
 .header {
   width: 100%;
   height: 100vh;
-  background: url("./img/background__hero.webp") no-repeat center/cover;
+  background: url("./img/background__hero.webp") no-repeat center/cover, rgba(69, 89, 74, 0.7);
   overflow: hidden;
   position: relative;
 }
