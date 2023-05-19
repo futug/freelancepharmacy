@@ -144,7 +144,7 @@ button {
 }
 .header__logo {
   width: 50px;
-  height: fit-content;
+  height: auto;
 }
 
 nav > ul {
@@ -308,7 +308,7 @@ nav > ul {
 
 .flowers__card-pic {
   width: 300px;
-  height: fit-content;
+  height: auto;
 }
 
 .flowers__card-topinfo {
