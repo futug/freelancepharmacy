@@ -133,7 +133,7 @@ button {
 }
 
 .header__inner-top--active {
-  background-color: transparent;
+  background-color: #fff;
 }
 
 .header__top-wrapper {
