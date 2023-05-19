@@ -116,7 +116,7 @@ button {
 .header {
   width: 100%;
   height: 100vh;
-  background: url("./img/Group\ 1.jpg") no-repeat center/cover;
+  background: url("./img/background__hero.webp") no-repeat center/cover;
   overflow: hidden;
   position: relative;
 }
@@ -129,6 +129,7 @@ button {
   background-color: rgba(69, 89, 74, 0.7);
   padding: 10px 0;
   position: fixed;
+  z-index: 999;
 }
 
 .header__inner-top--active {
@@ -362,7 +363,7 @@ nav > ul {
   top: 50%;
   left: -20px;
   width: 50px;
-  z-index: 999;
+  z-index: 997;
   cursor: pointer;
 }
 .next-slide {
@@ -370,8 +371,36 @@ nav > ul {
   top: 50%;
   right: -20px;
   width: 50px;
-  z-index: 999;
+  z-index: 997;
   cursor: pointer;
+}
+
+.flowers__describe {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 20px;
+}
+
+.flowers__describe:not(:first-of-type) {
+  display: none;
+}
+.showMoreButton {
+  font-family: "Montserrat", sans-serif;
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+.showMoreButton:hover {
+  border-bottom: 1px solid #000;
+}
+
+.flowers__button-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 /* Open-hours section */
 

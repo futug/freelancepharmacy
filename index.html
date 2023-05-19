@@ -9,13 +9,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Raleway:wght@600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Explore a wide selection of high-quality weed products in Thailand. Our online store offers a diverse range of strains, edibles, concentrates, and more. Enjoy the best cannabis experience with discreet and reliable delivery. Discover the top-notch marijuana products and accessories to enhance your recreational or medicinal needs. Order now and embark on a journey of relaxation and wellness with our premium weed collection."
+    />
+
+    <title>Weed point</title>
   </head>
   <body>
-    <header class="header">
+    <header id="home" class="header">
       <div class="header__inner-top">
         <div class="header__top-wrapper container">
-          <img class="header__logo" src="./img/photo_2023-05-19_10-52-16_clipdrop-background-removal (1).png" alt="company logo" />
+          <a href="#home" class="header__logo-link"><img class="header__logo" src="./img/logo.png" alt="company logo" /></a>
           <nav class="header__nav">
             <ul>
               <li><a class="header__nav-links" href="#flowers">flowers</a></li>
@@ -170,7 +175,7 @@
           <img class="prev-slide" src="./img/arrow-left.svg" alt="slide button" />
           <img class="next-slide" src="./img/arrow-right.svg" alt="slide button" />
         </div>
-        <!-- <p class="flowers__describe">
+        <p class="flowers__describe">
           Sukhumvit soi 11 is a well known stretch of road that is surrounded by restaurants, cafes, and the nightlife. Being a well known soi on Sukhumvit
           road, it will not be a hard task to locate Grashaus, they are located across from the Holiday Inn. Grashaus dispensary is a very modern looking store
           where their aesthetics and layout are accommodating for their customers. Everything at Grashaus is professionally handled, and you know you are
@@ -181,7 +186,10 @@
           operates, a checklist for what a coffeeshop is includes, friendly staff, warm and welcoming atmosphere, a mellow vibe, and the best quality buds for
           those who decided to visit Grasshaus Coffeeshop. Patrons of Grasshaus can expect to browse through their huge selection of buds and find strains like
           Waikiki Green, Obi0Wan OG, Mango Haze. Grasshaus Coffeeshop is where you want to be for a true coffeeshop experience in Thailand.
-        </p> -->
+        </p>
+        <div class="flowers__button-wrapper">
+          <button class="showMoreButton" id="showMoreButton">Show More</button>
+        </div>
       </section>
       <div class="popup" id="popup">
         <button class="popup__close" id="popupClose">&times;</button>
@@ -226,6 +234,7 @@
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyABZh8T-pTsUIdXN8oChZpqUhSbqlLOLI4&callback=initMap"></script>
+    <script src="googleInit.js"></script>
     <script src="./script.js"></script>
   </body>
 </html>
