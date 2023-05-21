@@ -1,11 +1,11 @@
 window.initMap = initMap;
 let map;
 function initMap() {
-  const centerPosition = { lat: 29.025885, lng: -13.602853 };
-  const mainPosition = { lat: 29.12960607069736, lng: -13.60995008872115 };
+  const centerPosition = { lat: 12.560586, lng: 99.94989 };
+  const mainPosition = { lat: 12.560586, lng: 99.94989 };
   map = new google.maps.Map(document.getElementById("map"), {
     center: centerPosition,
-    zoom: 11,
+    zoom: 14,
     styles: [
       {
         featureType: "road",

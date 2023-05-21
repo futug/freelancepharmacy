@@ -30,7 +30,9 @@
   function addActiveClasses() {
     if (!isHeaderActive) {
       document.querySelector(".header__inner-top").classList.add("header__inner-top--active");
+      document.querySelector(".header__logo-link").classList.add("header__logo-link--active");
       const navLinks = document.querySelectorAll(".header__nav-links");
+
       navLinks.forEach(function (link) {
         link.classList.add("header__nav-links--active");
       });
@@ -42,6 +44,7 @@
   function removeActiveClasses() {
     if (isHeaderActive) {
       document.querySelector(".header__inner-top").classList.remove("header__inner-top--active");
+      document.querySelector(".header__logo-link").classList.remove("header__logo-link--active");
       const navLinks = document.querySelectorAll(".header__nav-links");
       navLinks.forEach(function (link) {
         link.classList.remove("header__nav-links--active");
@@ -113,7 +116,7 @@
   // Function to handle click events on anchor links
   function handleAnchorClick(event) {
     event.preventDefault();
-    const blockID = event.target.getAttribute("href");
+    const blockID = event.currentTarget.getAttribute("href");
     const targetElement = document.querySelector(blockID);
 
     if (targetElement) {

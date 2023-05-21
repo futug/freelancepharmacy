@@ -147,6 +147,25 @@ button {
   height: auto;
 }
 
+.header__logo-link {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: #fff;
+}
+
+.header__logo-link--active {
+  color: #000;
+}
+.header__logo-link::after {
+  content: "Weed Point";
+
+  font-family: "Montserrat", sans-serif;
+
+  font-size: 18px;
+  width: 100%;
+}
+
 nav > ul {
   display: flex;
   gap: 20px;
@@ -180,12 +199,18 @@ nav > ul {
   width: 100%;
 }
 
+.header__inner-bottom {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .header__title {
   font-family: "Montserrat", sans-serif;
   font-size: 90px;
   color: rgba(255, 255, 255, 1);
   text-align: center;
-  margin-top: 40%;
+  /* margin-top: 50%; */
   text-transform: uppercase;
   line-height: 100%;
 }
@@ -271,17 +296,6 @@ nav > ul {
   }
 }
 
-@media (max-width: 660px) {
-  .header__title {
-    margin-top: 60%;
-  }
-}
-
-@media (max-width: 375px) {
-  .header__title {
-    margin-top: 90%;
-  }
-}
 /* section flowers */
 .flowers {
   position: relative;
