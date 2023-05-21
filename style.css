@@ -159,7 +159,7 @@ button {
 }
 .header__logo-link::after {
   content: "Weed Point";
-
+  margin-top: 5px;
   font-family: "Montserrat", sans-serif;
 
   font-size: 18px;
