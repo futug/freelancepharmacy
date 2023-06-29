@@ -1,0 +1,971 @@
+{
+    "full metall alchemist": {
+        "title-rus": "Цельно металлический Алхимик",
+        "title-eng": "Full metall Alchemist",
+        "poster": "../anime-api/posters/full__metall__alchemist.jpeg",
+        "seasons": {
+            "season-one": {
+                "episodes": [
+                    "../anime-api/video/full__metall__alchemist-episode-1.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-2.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-3.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-4.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-5.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-6.mp4"
+                ]
+            },
+            "season-two": {
+                "episodes": [
+                    "../anime-api/video/full__metall__alchemist-episode-1.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-2.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-3.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-4.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-5.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-6.mp4"
+                ]
+            },
+            "season-three": {
+                "episodes": [
+                    "../anime-api/video/full__metall__alchemist-episode-1.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-2.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-3.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-4.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-5.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-6.mp4"
+                ]
+            },
+            "season-four": {
+                "episodes": [
+                    "../anime-api/video/full__metall__alchemist-episode-1.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-2.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-3.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-4.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-5.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-6.mp4"
+                ]
+            },
+            "season-five": {
+                "episodes": [
+                    "../anime-api/video/full__metall__alchemist-episode-1.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-2.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-3.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-4.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-5.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-6.mp4"
+                ]
+            }
+        }
+    },
+    "black clover": {
+        "title-rus": "Черный клевер",
+        "title-eng": "Black clover",
+        "poster": "../anime-api/posters/black__clover.png",
+        "seasons": {
+            "season-one": {
+                "episodes": [
+                    "../anime-api/video/black__clover-1.mp4",
+                    "../anime-api/video/black__clover-2.mp4",
+                    "../anime-api/video/black__clover-3.mp4",
+                    "../anime-api/video/black__clover-4.mp4",
+                    "../anime-api/video/black__clover-5.mp4",
+                    "../anime-api/video/black__clover-6.mp4"
+                ]
+            },
+            "season-two": {
+                "episodes": [
+                    "../anime-api/video/black__clover-episode-1.mp4",
+                    "../anime-api/video/black__clover-episode-2.mp4",
+                    "../anime-api/video/black__clover-episode-3.mp4",
+                    "../anime-api/video/black__clover-episode-4.mp4",
+                    "../anime-api/video/black__clover-5.mp4",
+                    "../anime-api/video/black__clover-6.mp4"
+                ]
+            },
+            "season-three": {
+                "episodes": [
+                    "../anime-api/video/black__clover-1.mp4",
+                    "../anime-api/video/black__clover-2.mp4",
+                    "../anime-api/video/black__clover-3.mp4",
+                    "../anime-api/video/black__clover-4.mp4",
+                    "../anime-api/video/black__clover-episode-5.mp4",
+                    "../anime-api/video/black__clover-episode-6.mp4"
+                ]
+            },
+            "season-four": {
+                "episodes": [
+                    "../anime-api/video/black__clover-episode-1.mp4",
+                    "../anime-api/video/black__clover-episode-2.mp4",
+                    "../anime-api/video/fblack__clover-episode-3.mp4",
+                    "../anime-api/video/black__clover-episode-4.mp4",
+                    "../anime-api/video/black__clover-episode-5.mp4",
+                    "../anime-api/video/black__clover-episode-6.mp4"
+                ]
+            },
+            "season-five": {
+                "episodes": [
+                    "../anime-api/video/full__metall__alchemist-episode-1.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-2.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-3.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-4.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-5.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-6.mp4"
+                ]
+            }
+        }
+    },
+    "attack on titans": {
+        "title-rus": "Аттака Титанов",
+        "title-eng": "Attack on Titans",
+        "poster": "../anime-api/posters/attack__on__titans.jpeg",
+        "seasons": {
+            "season-one": {
+                "episodes": [
+                    "../anime-api/video/black__clover-1.mp4",
+                    "../anime-api/video/black__clover-2.mp4",
+                    "../anime-api/video/black__clover-3.mp4",
+                    "../anime-api/video/black__clover-4.mp4",
+                    "../anime-api/video/black__clover-5.mp4",
+                    "../anime-api/video/black__clover-6.mp4"
+                ]
+            },
+            "season-two": {
+                "episodes": [
+                    "../anime-api/video/black__clover-episode-1.mp4",
+                    "../anime-api/video/black__clover-episode-2.mp4",
+                    "../anime-api/video/black__clover-episode-3.mp4",
+                    "../anime-api/video/black__clover-episode-4.mp4",
+                    "../anime-api/video/black__clover-5.mp4",
+                    "../anime-api/video/black__clover-6.mp4"
+                ]
+            },
+            "season-three": {
+                "episodes": [
+                    "../anime-api/video/black__clover-1.mp4",
+                    "../anime-api/video/black__clover-2.mp4",
+                    "../anime-api/video/black__clover-3.mp4",
+                    "../anime-api/video/black__clover-4.mp4",
+                    "../anime-api/video/black__clover-episode-5.mp4",
+                    "../anime-api/video/black__clover-episode-6.mp4"
+                ]
+            },
+            "season-four": {
+                "episodes": [
+                    "../anime-api/video/black__clover-episode-1.mp4",
+                    "../anime-api/video/black__clover-episode-2.mp4",
+                    "../anime-api/video/fblack__clover-episode-3.mp4",
+                    "../anime-api/video/black__clover-episode-4.mp4",
+                    "../anime-api/video/black__clover-episode-5.mp4",
+                    "../anime-api/video/black__clover-episode-6.mp4"
+                ]
+            },
+            "season-five": {
+                "episodes": [
+                    "../anime-api/video/full__metall__alchemist-episode-1.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-2.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-3.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-4.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-5.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-6.mp4"
+                ]
+            }
+        }
+    },
+    "beck": {
+        "title-rus": "БЕК",
+        "title-eng": "BECK",
+        "poster": "../anime-api/posters/beck.jpg",
+        "seasons": {
+            "season-one": {
+                "episodes": [
+                    "../anime-api/video/black__clover-1.mp4",
+                    "../anime-api/video/black__clover-2.mp4",
+                    "../anime-api/video/black__clover-3.mp4",
+                    "../anime-api/video/black__clover-4.mp4",
+                    "../anime-api/video/black__clover-5.mp4",
+                    "../anime-api/video/black__clover-6.mp4"
+                ]
+            },
+            "season-two": {
+                "episodes": [
+                    "../anime-api/video/black__clover-episode-1.mp4",
+                    "../anime-api/video/black__clover-episode-2.mp4",
+                    "../anime-api/video/black__clover-episode-3.mp4",
+                    "../anime-api/video/black__clover-episode-4.mp4",
+                    "../anime-api/video/black__clover-5.mp4",
+                    "../anime-api/video/black__clover-6.mp4"
+                ]
+            },
+            "season-three": {
+                "episodes": [
+                    "../anime-api/video/black__clover-1.mp4",
+                    "../anime-api/video/black__clover-2.mp4",
+                    "../anime-api/video/black__clover-3.mp4",
+                    "../anime-api/video/black__clover-4.mp4",
+                    "../anime-api/video/black__clover-episode-5.mp4",
+                    "../anime-api/video/black__clover-episode-6.mp4"
+                ]
+            },
+            "season-four": {
+                "episodes": [
+                    "../anime-api/video/black__clover-episode-1.mp4",
+                    "../anime-api/video/black__clover-episode-2.mp4",
+                    "../anime-api/video/fblack__clover-episode-3.mp4",
+                    "../anime-api/video/black__clover-episode-4.mp4",
+                    "../anime-api/video/black__clover-episode-5.mp4",
+                    "../anime-api/video/black__clover-episode-6.mp4"
+                ]
+            },
+            "season-five": {
+                "episodes": [
+                    "../anime-api/video/full__metall__alchemist-episode-1.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-2.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-3.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-4.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-5.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-6.mp4"
+                ]
+            }
+        }
+    },
+    "death note": {
+        "title-rus": "Тетрадь смерти",
+        "title-eng": "Death Note",
+        "poster": "../anime-api/posters/death__note.jpeg",
+        "seasons": {
+            "season-one": {
+                "episodes": [
+                    "../anime-api/video/black__clover-1.mp4",
+                    "../anime-api/video/black__clover-2.mp4",
+                    "../anime-api/video/black__clover-3.mp4",
+                    "../anime-api/video/black__clover-4.mp4",
+                    "../anime-api/video/black__clover-5.mp4",
+                    "../anime-api/video/black__clover-6.mp4"
+                ]
+            },
+            "season-two": {
+                "episodes": [
+                    "../anime-api/video/black__clover-episode-1.mp4",
+                    "../anime-api/video/black__clover-episode-2.mp4",
+                    "../anime-api/video/black__clover-episode-3.mp4",
+                    "../anime-api/video/black__clover-episode-4.mp4",
+                    "../anime-api/video/black__clover-5.mp4",
+                    "../anime-api/video/black__clover-6.mp4"
+                ]
+            },
+            "season-three": {
+                "episodes": [
+                    "../anime-api/video/black__clover-1.mp4",
+                    "../anime-api/video/black__clover-2.mp4",
+                    "../anime-api/video/black__clover-3.mp4",
+                    "../anime-api/video/black__clover-4.mp4",
+                    "../anime-api/video/black__clover-episode-5.mp4",
+                    "../anime-api/video/black__clover-episode-6.mp4"
+                ]
+            },
+            "season-four": {
+                "episodes": [
+                    "../anime-api/video/black__clover-episode-1.mp4",
+                    "../anime-api/video/black__clover-episode-2.mp4",
+                    "../anime-api/video/fblack__clover-episode-3.mp4",
+                    "../anime-api/video/black__clover-episode-4.mp4",
+                    "../anime-api/video/black__clover-episode-5.mp4",
+                    "../anime-api/video/black__clover-episode-6.mp4"
+                ]
+            },
+            "season-five": {
+                "episodes": [
+                    "../anime-api/video/full__metall__alchemist-episode-1.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-2.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-3.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-4.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-5.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-6.mp4"
+                ]
+            }
+        }
+    },
+    "demon slayer": {
+        "title-rus": "Клиннок рассекающий демонов",
+        "title-eng": "Demon Slayer",
+        "poster": "../anime-api/posters/demon__slayer.jpeg",
+        "seasons": {
+            "season-one": {
+                "episodes": [
+                    "../anime-api/video/black__clover-1.mp4",
+                    "../anime-api/video/black__clover-2.mp4",
+                    "../anime-api/video/black__clover-3.mp4",
+                    "../anime-api/video/black__clover-4.mp4",
+                    "../anime-api/video/black__clover-5.mp4",
+                    "../anime-api/video/black__clover-6.mp4"
+                ]
+            },
+            "season-two": {
+                "episodes": [
+                    "../anime-api/video/black__clover-episode-1.mp4",
+                    "../anime-api/video/black__clover-episode-2.mp4",
+                    "../anime-api/video/black__clover-episode-3.mp4",
+                    "../anime-api/video/black__clover-episode-4.mp4",
+                    "../anime-api/video/black__clover-5.mp4",
+                    "../anime-api/video/black__clover-6.mp4"
+                ]
+            },
+            "season-three": {
+                "episodes": [
+                    "../anime-api/video/black__clover-1.mp4",
+                    "../anime-api/video/black__clover-2.mp4",
+                    "../anime-api/video/black__clover-3.mp4",
+                    "../anime-api/video/black__clover-4.mp4",
+                    "../anime-api/video/black__clover-episode-5.mp4",
+                    "../anime-api/video/black__clover-episode-6.mp4"
+                ]
+            },
+            "season-four": {
+                "episodes": [
+                    "../anime-api/video/black__clover-episode-1.mp4",
+                    "../anime-api/video/black__clover-episode-2.mp4",
+                    "../anime-api/video/fblack__clover-episode-3.mp4",
+                    "../anime-api/video/black__clover-episode-4.mp4",
+                    "../anime-api/video/black__clover-episode-5.mp4",
+                    "../anime-api/video/black__clover-episode-6.mp4"
+                ]
+            },
+            "season-five": {
+                "episodes": [
+                    "../anime-api/video/full__metall__alchemist-episode-1.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-2.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-3.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-4.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-5.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-6.mp4"
+                ]
+            }
+        }
+    },
+    "doctor stone": {
+        "title-rus": "Доктор Стоун",
+        "title-eng": "Doctor Stone",
+        "poster": "../anime-api/posters/doctor__stone.jpg",
+        "seasons": {
+            "season-one": {
+                "episodes": [
+                    "../anime-api/video/black__clover-1.mp4",
+                    "../anime-api/video/black__clover-2.mp4",
+                    "../anime-api/video/black__clover-3.mp4",
+                    "../anime-api/video/black__clover-4.mp4",
+                    "../anime-api/video/black__clover-5.mp4",
+                    "../anime-api/video/black__clover-6.mp4"
+                ]
+            },
+            "season-two": {
+                "episodes": [
+                    "../anime-api/video/black__clover-episode-1.mp4",
+                    "../anime-api/video/black__clover-episode-2.mp4",
+                    "../anime-api/video/black__clover-episode-3.mp4",
+                    "../anime-api/video/black__clover-episode-4.mp4",
+                    "../anime-api/video/black__clover-5.mp4",
+                    "../anime-api/video/black__clover-6.mp4"
+                ]
+            },
+            "season-three": {
+                "episodes": [
+                    "../anime-api/video/black__clover-1.mp4",
+                    "../anime-api/video/black__clover-2.mp4",
+                    "../anime-api/video/black__clover-3.mp4",
+                    "../anime-api/video/black__clover-4.mp4",
+                    "../anime-api/video/black__clover-episode-5.mp4",
+                    "../anime-api/video/black__clover-episode-6.mp4"
+                ]
+            },
+            "season-four": {
+                "episodes": [
+                    "../anime-api/video/black__clover-episode-1.mp4",
+                    "../anime-api/video/black__clover-episode-2.mp4",
+                    "../anime-api/video/fblack__clover-episode-3.mp4",
+                    "../anime-api/video/black__clover-episode-4.mp4",
+                    "../anime-api/video/black__clover-episode-5.mp4",
+                    "../anime-api/video/black__clover-episode-6.mp4"
+                ]
+            },
+            "season-five": {
+                "episodes": [
+                    "../anime-api/video/full__metall__alchemist-episode-1.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-2.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-3.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-4.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-5.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-6.mp4"
+                ]
+            }
+        }
+    },
+    "evangelion": {
+        "title-rus": "Евангелион",
+        "title-eng": "Evangelion",
+        "poster": "../anime-api/posters/evangelion.webp",
+        "seasons": {
+            "season-one": {
+                "episodes": [
+                    "../anime-api/video/black__clover-1.mp4",
+                    "../anime-api/video/black__clover-2.mp4",
+                    "../anime-api/video/black__clover-3.mp4",
+                    "../anime-api/video/black__clover-4.mp4",
+                    "../anime-api/video/black__clover-5.mp4",
+                    "../anime-api/video/black__clover-6.mp4"
+                ]
+            },
+            "season-two": {
+                "episodes": [
+                    "../anime-api/video/black__clover-episode-1.mp4",
+                    "../anime-api/video/black__clover-episode-2.mp4",
+                    "../anime-api/video/black__clover-episode-3.mp4",
+                    "../anime-api/video/black__clover-episode-4.mp4",
+                    "../anime-api/video/black__clover-5.mp4",
+                    "../anime-api/video/black__clover-6.mp4"
+                ]
+            },
+            "season-three": {
+                "episodes": [
+                    "../anime-api/video/black__clover-1.mp4",
+                    "../anime-api/video/black__clover-2.mp4",
+                    "../anime-api/video/black__clover-3.mp4",
+                    "../anime-api/video/black__clover-4.mp4",
+                    "../anime-api/video/black__clover-episode-5.mp4",
+                    "../anime-api/video/black__clover-episode-6.mp4"
+                ]
+            },
+            "season-four": {
+                "episodes": [
+                    "../anime-api/video/black__clover-episode-1.mp4",
+                    "../anime-api/video/black__clover-episode-2.mp4",
+                    "../anime-api/video/fblack__clover-episode-3.mp4",
+                    "../anime-api/video/black__clover-episode-4.mp4",
+                    "../anime-api/video/black__clover-episode-5.mp4",
+                    "../anime-api/video/black__clover-episode-6.mp4"
+                ]
+            },
+            "season-five": {
+                "episodes": [
+                    "../anime-api/video/full__metall__alchemist-episode-1.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-2.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-3.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-4.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-5.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-6.mp4"
+                ]
+            }
+        }
+    },
+    "hunter x hunter": {
+        "title-rus": "Охотник х Охотник",
+        "title-eng": "Hunter x Hunter",
+        "poster": "../anime-api/posters/hunter__x__hunter.jpg",
+        "seasons": {
+            "season-one": {
+                "episodes": [
+                    "../anime-api/video/black__clover-1.mp4",
+                    "../anime-api/video/black__clover-2.mp4",
+                    "../anime-api/video/black__clover-3.mp4",
+                    "../anime-api/video/black__clover-4.mp4",
+                    "../anime-api/video/black__clover-5.mp4",
+                    "../anime-api/video/black__clover-6.mp4"
+                ]
+            },
+            "season-two": {
+                "episodes": [
+                    "../anime-api/video/black__clover-episode-1.mp4",
+                    "../anime-api/video/black__clover-episode-2.mp4",
+                    "../anime-api/video/black__clover-episode-3.mp4",
+                    "../anime-api/video/black__clover-episode-4.mp4",
+                    "../anime-api/video/black__clover-5.mp4",
+                    "../anime-api/video/black__clover-6.mp4"
+                ]
+            },
+            "season-three": {
+                "episodes": [
+                    "../anime-api/video/black__clover-1.mp4",
+                    "../anime-api/video/black__clover-2.mp4",
+                    "../anime-api/video/black__clover-3.mp4",
+                    "../anime-api/video/black__clover-4.mp4",
+                    "../anime-api/video/black__clover-episode-5.mp4",
+                    "../anime-api/video/black__clover-episode-6.mp4"
+                ]
+            },
+            "season-four": {
+                "episodes": [
+                    "../anime-api/video/black__clover-episode-1.mp4",
+                    "../anime-api/video/black__clover-episode-2.mp4",
+                    "../anime-api/video/fblack__clover-episode-3.mp4",
+                    "../anime-api/video/black__clover-episode-4.mp4",
+                    "../anime-api/video/black__clover-episode-5.mp4",
+                    "../anime-api/video/black__clover-episode-6.mp4"
+                ]
+            },
+            "season-five": {
+                "episodes": [
+                    "../anime-api/video/full__metall__alchemist-episode-1.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-2.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-3.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-4.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-5.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-6.mp4"
+                ]
+            }
+        }
+    },
+    "naruto": {
+        "title-rus": "Наруто",
+        "title-eng": "Naruto",
+        "poster": "../anime-api/posters/naruto.jpg",
+        "seasons": {
+            "season-one": {
+                "episodes": [
+                    "../anime-api/video/black__clover-1.mp4",
+                    "../anime-api/video/black__clover-2.mp4",
+                    "../anime-api/video/black__clover-3.mp4",
+                    "../anime-api/video/black__clover-4.mp4",
+                    "../anime-api/video/black__clover-5.mp4",
+                    "../anime-api/video/black__clover-6.mp4"
+                ]
+            },
+            "season-two": {
+                "episodes": [
+                    "../anime-api/video/black__clover-episode-1.mp4",
+                    "../anime-api/video/black__clover-episode-2.mp4",
+                    "../anime-api/video/black__clover-episode-3.mp4",
+                    "../anime-api/video/black__clover-episode-4.mp4",
+                    "../anime-api/video/black__clover-5.mp4",
+                    "../anime-api/video/black__clover-6.mp4"
+                ]
+            },
+            "season-three": {
+                "episodes": [
+                    "../anime-api/video/black__clover-1.mp4",
+                    "../anime-api/video/black__clover-2.mp4",
+                    "../anime-api/video/black__clover-3.mp4",
+                    "../anime-api/video/black__clover-4.mp4",
+                    "../anime-api/video/black__clover-episode-5.mp4",
+                    "../anime-api/video/black__clover-episode-6.mp4"
+                ]
+            },
+            "season-four": {
+                "episodes": [
+                    "../anime-api/video/black__clover-episode-1.mp4",
+                    "../anime-api/video/black__clover-episode-2.mp4",
+                    "../anime-api/video/fblack__clover-episode-3.mp4",
+                    "../anime-api/video/black__clover-episode-4.mp4",
+                    "../anime-api/video/black__clover-episode-5.mp4",
+                    "../anime-api/video/black__clover-episode-6.mp4"
+                ]
+            },
+            "season-five": {
+                "episodes": [
+                    "../anime-api/video/full__metall__alchemist-episode-1.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-2.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-3.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-4.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-5.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-6.mp4"
+                ]
+            }
+        }
+    },
+    "my hero academy": {
+        "title-rus": "Моя геройская академия",
+        "title-eng": "My hero academy",
+        "poster": "../anime-api/posters/my__hero__academy.webp",
+        "seasons": {
+            "season-one": {
+                "episodes": [
+                    "../anime-api/video/black__clover-1.mp4",
+                    "../anime-api/video/black__clover-2.mp4",
+                    "../anime-api/video/black__clover-3.mp4",
+                    "../anime-api/video/black__clover-4.mp4",
+                    "../anime-api/video/black__clover-5.mp4",
+                    "../anime-api/video/black__clover-6.mp4"
+                ]
+            },
+            "season-two": {
+                "episodes": [
+                    "../anime-api/video/black__clover-episode-1.mp4",
+                    "../anime-api/video/black__clover-episode-2.mp4",
+                    "../anime-api/video/black__clover-episode-3.mp4",
+                    "../anime-api/video/black__clover-episode-4.mp4",
+                    "../anime-api/video/black__clover-5.mp4",
+                    "../anime-api/video/black__clover-6.mp4"
+                ]
+            },
+            "season-three": {
+                "episodes": [
+                    "../anime-api/video/black__clover-1.mp4",
+                    "../anime-api/video/black__clover-2.mp4",
+                    "../anime-api/video/black__clover-3.mp4",
+                    "../anime-api/video/black__clover-4.mp4",
+                    "../anime-api/video/black__clover-episode-5.mp4",
+                    "../anime-api/video/black__clover-episode-6.mp4"
+                ]
+            },
+            "season-four": {
+                "episodes": [
+                    "../anime-api/video/black__clover-episode-1.mp4",
+                    "../anime-api/video/black__clover-episode-2.mp4",
+                    "../anime-api/video/fblack__clover-episode-3.mp4",
+                    "../anime-api/video/black__clover-episode-4.mp4",
+                    "../anime-api/video/black__clover-episode-5.mp4",
+                    "../anime-api/video/black__clover-episode-6.mp4"
+                ]
+            },
+            "season-five": {
+                "episodes": [
+                    "../anime-api/video/full__metall__alchemist-episode-1.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-2.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-3.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-4.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-5.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-6.mp4"
+                ]
+            }
+        }
+    },
+    "psyco pass": {
+        "title-rus": "Психопаспорт",
+        "title-eng": "Psycho-Pass",
+        "poster": "../anime-api/posters/psyco__pass.jpeg",
+        "seasons": {
+            "season-one": {
+                "episodes": [
+                    "../anime-api/video/black__clover-1.mp4",
+                    "../anime-api/video/black__clover-2.mp4",
+                    "../anime-api/video/black__clover-3.mp4",
+                    "../anime-api/video/black__clover-4.mp4",
+                    "../anime-api/video/black__clover-5.mp4",
+                    "../anime-api/video/black__clover-6.mp4"
+                ]
+            },
+            "season-two": {
+                "episodes": [
+                    "../anime-api/video/black__clover-episode-1.mp4",
+                    "../anime-api/video/black__clover-episode-2.mp4",
+                    "../anime-api/video/black__clover-episode-3.mp4",
+                    "../anime-api/video/black__clover-episode-4.mp4",
+                    "../anime-api/video/black__clover-5.mp4",
+                    "../anime-api/video/black__clover-6.mp4"
+                ]
+            },
+            "season-three": {
+                "episodes": [
+                    "../anime-api/video/black__clover-1.mp4",
+                    "../anime-api/video/black__clover-2.mp4",
+                    "../anime-api/video/black__clover-3.mp4",
+                    "../anime-api/video/black__clover-4.mp4",
+                    "../anime-api/video/black__clover-episode-5.mp4",
+                    "../anime-api/video/black__clover-episode-6.mp4"
+                ]
+            },
+            "season-four": {
+                "episodes": [
+                    "../anime-api/video/black__clover-episode-1.mp4",
+                    "../anime-api/video/black__clover-episode-2.mp4",
+                    "../anime-api/video/fblack__clover-episode-3.mp4",
+                    "../anime-api/video/black__clover-episode-4.mp4",
+                    "../anime-api/video/black__clover-episode-5.mp4",
+                    "../anime-api/video/black__clover-episode-6.mp4"
+                ]
+            },
+            "season-five": {
+                "episodes": [
+                    "../anime-api/video/full__metall__alchemist-episode-1.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-2.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-3.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-4.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-5.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-6.mp4"
+                ]
+            }
+        }
+    },
+    "shaman king": {
+        "title-rus": "Король шаманов",
+        "title-eng": "Shaman king",
+        "poster": "../anime-api/posters/shaman__king.webp",
+        "seasons": {
+            "season-one": {
+                "episodes": [
+                    "../anime-api/video/black__clover-1.mp4",
+                    "../anime-api/video/black__clover-2.mp4",
+                    "../anime-api/video/black__clover-3.mp4",
+                    "../anime-api/video/black__clover-4.mp4",
+                    "../anime-api/video/black__clover-5.mp4",
+                    "../anime-api/video/black__clover-6.mp4"
+                ]
+            },
+            "season-two": {
+                "episodes": [
+                    "../anime-api/video/black__clover-episode-1.mp4",
+                    "../anime-api/video/black__clover-episode-2.mp4",
+                    "../anime-api/video/black__clover-episode-3.mp4",
+                    "../anime-api/video/black__clover-episode-4.mp4",
+                    "../anime-api/video/black__clover-5.mp4",
+                    "../anime-api/video/black__clover-6.mp4"
+                ]
+            },
+            "season-three": {
+                "episodes": [
+                    "../anime-api/video/black__clover-1.mp4",
+                    "../anime-api/video/black__clover-2.mp4",
+                    "../anime-api/video/black__clover-3.mp4",
+                    "../anime-api/video/black__clover-4.mp4",
+                    "../anime-api/video/black__clover-episode-5.mp4",
+                    "../anime-api/video/black__clover-episode-6.mp4"
+                ]
+            },
+            "season-four": {
+                "episodes": [
+                    "../anime-api/video/black__clover-episode-1.mp4",
+                    "../anime-api/video/black__clover-episode-2.mp4",
+                    "../anime-api/video/fblack__clover-episode-3.mp4",
+                    "../anime-api/video/black__clover-episode-4.mp4",
+                    "../anime-api/video/black__clover-episode-5.mp4",
+                    "../anime-api/video/black__clover-episode-6.mp4"
+                ]
+            },
+            "season-five": {
+                "episodes": [
+                    "../anime-api/video/full__metall__alchemist-episode-1.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-2.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-3.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-4.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-5.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-6.mp4"
+                ]
+            }
+        }
+    },
+    "sorcery fight": {
+        "title-rus": "Магическая битва",
+        "title-eng": "Sorcery fight",
+        "poster": "../anime-api/posters/sorcery__fight.webp",
+        "seasons": {
+            "season-one": {
+                "episodes": [
+                    "../anime-api/video/black__clover-1.mp4",
+                    "../anime-api/video/black__clover-2.mp4",
+                    "../anime-api/video/black__clover-3.mp4",
+                    "../anime-api/video/black__clover-4.mp4",
+                    "../anime-api/video/black__clover-5.mp4",
+                    "../anime-api/video/black__clover-6.mp4"
+                ]
+            },
+            "season-two": {
+                "episodes": [
+                    "../anime-api/video/black__clover-episode-1.mp4",
+                    "../anime-api/video/black__clover-episode-2.mp4",
+                    "../anime-api/video/black__clover-episode-3.mp4",
+                    "../anime-api/video/black__clover-episode-4.mp4",
+                    "../anime-api/video/black__clover-5.mp4",
+                    "../anime-api/video/black__clover-6.mp4"
+                ]
+            },
+            "season-three": {
+                "episodes": [
+                    "../anime-api/video/black__clover-1.mp4",
+                    "../anime-api/video/black__clover-2.mp4",
+                    "../anime-api/video/black__clover-3.mp4",
+                    "../anime-api/video/black__clover-4.mp4",
+                    "../anime-api/video/black__clover-episode-5.mp4",
+                    "../anime-api/video/black__clover-episode-6.mp4"
+                ]
+            },
+            "season-four": {
+                "episodes": [
+                    "../anime-api/video/black__clover-episode-1.mp4",
+                    "../anime-api/video/black__clover-episode-2.mp4",
+                    "../anime-api/video/fblack__clover-episode-3.mp4",
+                    "../anime-api/video/black__clover-episode-4.mp4",
+                    "../anime-api/video/black__clover-episode-5.mp4",
+                    "../anime-api/video/black__clover-episode-6.mp4"
+                ]
+            },
+            "season-five": {
+                "episodes": [
+                    "../anime-api/video/full__metall__alchemist-episode-1.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-2.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-3.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-4.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-5.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-6.mp4"
+                ]
+            }
+        }
+    },
+    "sword art online": {
+        "title-rus": "Мастера меча Он-лайн",
+        "title-eng": "Sword Art Online",
+        "poster": "../anime-api/posters/sword__art__online.jpg",
+        "seasons": {
+            "season-one": {
+                "episodes": [
+                    "../anime-api/video/black__clover-1.mp4",
+                    "../anime-api/video/black__clover-2.mp4",
+                    "../anime-api/video/black__clover-3.mp4",
+                    "../anime-api/video/black__clover-4.mp4",
+                    "../anime-api/video/black__clover-5.mp4",
+                    "../anime-api/video/black__clover-6.mp4"
+                ]
+            },
+            "season-two": {
+                "episodes": [
+                    "../anime-api/video/black__clover-episode-1.mp4",
+                    "../anime-api/video/black__clover-episode-2.mp4",
+                    "../anime-api/video/black__clover-episode-3.mp4",
+                    "../anime-api/video/black__clover-episode-4.mp4",
+                    "../anime-api/video/black__clover-5.mp4",
+                    "../anime-api/video/black__clover-6.mp4"
+                ]
+            },
+            "season-three": {
+                "episodes": [
+                    "../anime-api/video/black__clover-1.mp4",
+                    "../anime-api/video/black__clover-2.mp4",
+                    "../anime-api/video/black__clover-3.mp4",
+                    "../anime-api/video/black__clover-4.mp4",
+                    "../anime-api/video/black__clover-episode-5.mp4",
+                    "../anime-api/video/black__clover-episode-6.mp4"
+                ]
+            },
+            "season-four": {
+                "episodes": [
+                    "../anime-api/video/black__clover-episode-1.mp4",
+                    "../anime-api/video/black__clover-episode-2.mp4",
+                    "../anime-api/video/fblack__clover-episode-3.mp4",
+                    "../anime-api/video/black__clover-episode-4.mp4",
+                    "../anime-api/video/black__clover-episode-5.mp4",
+                    "../anime-api/video/black__clover-episode-6.mp4"
+                ]
+            },
+            "season-five": {
+                "episodes": [
+                    "../anime-api/video/full__metall__alchemist-episode-1.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-2.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-3.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-4.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-5.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-6.mp4"
+                ]
+            }
+        }
+    },
+    "taboo tattoo": {
+        "title-rus": "Запретная татуировка",
+        "title-eng": " Taboo Tattoo",
+        "poster": "../anime-api/posters/taboo__tatoo.jpg",
+        "seasons": {
+            "season-one": {
+                "episodes": [
+                    "../anime-api/video/black__clover-1.mp4",
+                    "../anime-api/video/black__clover-2.mp4",
+                    "../anime-api/video/black__clover-3.mp4",
+                    "../anime-api/video/black__clover-4.mp4",
+                    "../anime-api/video/black__clover-5.mp4",
+                    "../anime-api/video/black__clover-6.mp4"
+                ]
+            },
+            "season-two": {
+                "episodes": [
+                    "../anime-api/video/black__clover-episode-1.mp4",
+                    "../anime-api/video/black__clover-episode-2.mp4",
+                    "../anime-api/video/black__clover-episode-3.mp4",
+                    "../anime-api/video/black__clover-episode-4.mp4",
+                    "../anime-api/video/black__clover-5.mp4",
+                    "../anime-api/video/black__clover-6.mp4"
+                ]
+            },
+            "season-three": {
+                "episodes": [
+                    "../anime-api/video/black__clover-1.mp4",
+                    "../anime-api/video/black__clover-2.mp4",
+                    "../anime-api/video/black__clover-3.mp4",
+                    "../anime-api/video/black__clover-4.mp4",
+                    "../anime-api/video/black__clover-episode-5.mp4",
+                    "../anime-api/video/black__clover-episode-6.mp4"
+                ]
+            },
+            "season-four": {
+                "episodes": [
+                    "../anime-api/video/black__clover-episode-1.mp4",
+                    "../anime-api/video/black__clover-episode-2.mp4",
+                    "../anime-api/video/fblack__clover-episode-3.mp4",
+                    "../anime-api/video/black__clover-episode-4.mp4",
+                    "../anime-api/video/black__clover-episode-5.mp4",
+                    "../anime-api/video/black__clover-episode-6.mp4"
+                ]
+            },
+            "season-five": {
+                "episodes": [
+                    "../anime-api/video/full__metall__alchemist-episode-1.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-2.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-3.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-4.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-5.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-6.mp4"
+                ]
+            }
+        }
+    },
+    "tokian ghul": {
+        "title-rus": "Токийский гуль",
+        "title-eng": "Tokian Ghul",
+        "poster": "../anime-api/posters/tokian__ghul.jpeg",
+        "seasons": {
+            "season-one": {
+                "episodes": [
+                    "../anime-api/video/black__clover-1.mp4",
+                    "../anime-api/video/black__clover-2.mp4",
+                    "../anime-api/video/black__clover-3.mp4",
+                    "../anime-api/video/black__clover-4.mp4",
+                    "../anime-api/video/black__clover-5.mp4",
+                    "../anime-api/video/black__clover-6.mp4"
+                ]
+            },
+            "season-two": {
+                "episodes": [
+                    "../anime-api/video/black__clover-episode-1.mp4",
+                    "../anime-api/video/black__clover-episode-2.mp4",
+                    "../anime-api/video/black__clover-episode-3.mp4",
+                    "../anime-api/video/black__clover-episode-4.mp4",
+                    "../anime-api/video/black__clover-5.mp4",
+                    "../anime-api/video/black__clover-6.mp4"
+                ]
+            },
+            "season-three": {
+                "episodes": [
+                    "../anime-api/video/black__clover-1.mp4",
+                    "../anime-api/video/black__clover-2.mp4",
+                    "../anime-api/video/black__clover-3.mp4",
+                    "../anime-api/video/black__clover-4.mp4",
+                    "../anime-api/video/black__clover-episode-5.mp4",
+                    "../anime-api/video/black__clover-episode-6.mp4"
+                ]
+            },
+            "season-four": {
+                "episodes": [
+                    "../anime-api/video/black__clover-episode-1.mp4",
+                    "../anime-api/video/black__clover-episode-2.mp4",
+                    "../anime-api/video/fblack__clover-episode-3.mp4",
+                    "../anime-api/video/black__clover-episode-4.mp4",
+                    "../anime-api/video/black__clover-episode-5.mp4",
+                    "../anime-api/video/black__clover-episode-6.mp4"
+                ]
+            },
+            "season-five": {
+                "episodes": [
+                    "../anime-api/video/full__metall__alchemist-episode-1.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-2.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-3.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-4.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-5.mp4",
+                    "../anime-api/video/full__metall__alchemist-episode-6.mp4"
+                ]
+            }
+        }
+    }
+}
